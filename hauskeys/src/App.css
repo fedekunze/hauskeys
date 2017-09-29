@@ -1,0 +1,113 @@
+/*.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}*/
+
+.App-logo {
+  height: 40px;
+  margin-top: -10px;
+}
+
+.logo-big {
+    height: 300px;
+    width: auto;
+    vertical-align: middle;
+    margin-top: 75px;
+}
+
+.navbar {
+  color: rgb(254, 137, 137);
+}
+
+.nav {
+  color: rgb(254, 137, 137);
+}
+
+.h2sub {
+  color: rgb(254, 137, 137);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+  min-height: 400px;
+  background-image: url('./haus-network.jpg');
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  margin-top: -20px;
+  border-bottom: 1px solid;
+  border-color: gray;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+}
+
+Button {
+  background-color: rgb(254, 137, 137);
+}
+
+.unit-picture {
+  height: 100px;
+}
+
+.unit-row {
+  display: flex;
+}
+.unit-thumb {
+  display: flex;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 16px;
+  border-top: 1px solid;
+  border-color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px 0px 0px 10px;
+  background-color: rgb(44, 44, 44);
+  color: rgb(254, 137, 137);
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+}
+
+
+
+/*.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
