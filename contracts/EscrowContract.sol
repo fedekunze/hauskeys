@@ -160,7 +160,9 @@ contract EscrowContract {
     string state,
     string _country,
     uint _rent
-    ) {
+    )
+		constant
+		{
       unit_id +=1;
       units[unit_id] = Unit({
         rooms: _rooms,
@@ -258,13 +260,14 @@ contract EscrowContract {
 	/* Returns the ids of offers for a given unit */
 	function checkUnitOffers(uint _unit_id)
 		landlordOnly(_unit_id)
+		constant
 		returns (uint[])
 	{
 		return unit_offers[_unit_id];
 	}
 
-	function showOfferInfo(uint _offer_id) returns (address, uint) {
-		return (offers[_offer_id].prospective_tenant, offers[_offer_id].amount);
+	function showOfferInfo(uint _offer_id) constant returns (address, uint, OfferState) {
+		return (offers[_offer_id].prospective_tenant, offers[_offer_id].amount, offers[_offer_id].state);
 	}
 
 }

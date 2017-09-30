@@ -84,6 +84,25 @@ Button {
   border-radius: 0;
 }
 
+.check-offer-grid{
+  height: 300px;
+  vertical-align: middle;
+  /*background: rgba(255, 255, 255, .75);
+  background-image: url('./nodes.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
+}
+
+.offer-amount {
+  width: inherit;
+}
+
+.modal-hr {
+  width: inherit;
+}
+
 .footer {
   text-align: center;
   font-size: 16px;
